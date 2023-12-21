@@ -1,0 +1,36 @@
+package com.practice.session1;
+
+public class DodgeChallenger {
+	
+	byte numberOfSeats=5;
+	byte numberOfDoors=4;
+	byte numberOfVehicleOwners=1;
+	byte emissionSticker=4;
+	
+	short power=362;
+	short horsepower=492;
+	short co2Emission=433;
+	short cubicCapacity=6417;
+	
+	int price=29999;
+	int mileage=14999;
+	
+	long registrationNumber=1445678367377373L;
+	
+	float fuelConsuptionCombined=15.5F;
+	float fuelConsumptionUrban=21.4F;
+	float fuelConsumptionExtraUrban=13.6F;
+	
+	double fuelConsumptionPreciseAverage=153.245232443432243-1;
+	
+	boolean isdamaged=true;
+	
+	char energyEfficiencycategory='6';
+	
+	public void startTheEngine() {
+		System.out.println("The Engine is started");
+	}
+	
+	
+
+}

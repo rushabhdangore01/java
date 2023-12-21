@@ -1,0 +1,16 @@
+package com.stream.java8;
+
+public class Array {
+    public void processArray(int[] myArray) {
+        System.out.println("Array elements:");
+        for (int i = 0; i < myArray.length; i++) {
+            System.out.println(myArray[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Array example = new Array();
+        int[] numbers = { 1, 2, 3, 4, 5 };
+        example.processArray(numbers); // Pass the 'numbers' array as a parameter
+    }
+}

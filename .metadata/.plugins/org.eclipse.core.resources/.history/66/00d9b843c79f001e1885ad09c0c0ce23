@@ -1,0 +1,10 @@
+package com.practice.session1;
+
+public class CarsApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
